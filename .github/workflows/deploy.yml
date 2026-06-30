@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-           BASE_PATH: '/principle_based_task_characterization'
+           BASE_PATH: '/user_aware_ai'
         run: npm run build
 
       - name: Upload Artifacts
