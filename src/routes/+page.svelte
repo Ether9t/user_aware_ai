@@ -1,35 +1,36 @@
 <script lang="ts">
     import "../app.css";
+    import { base } from '$app/paths';
 
     const team = [
         {
             name: "Karin de Langis",
-            avatar: "/members/karin-de-langis.jpg",
+            avatar: `${base}/members/karin-de-langis.jpg`,
             link: "https://karinjd.github.io/",
         },
         {
             name: "Khanh Chi Le",
-            avatar: "/members/khanh-chi-le.jpg",
+            avatar: `${base}/members/khanh-chi-le.jpg`,
             link: "https://chile2706.github.io/",
         },
         {
             name: "Ruizi Wang",
-            avatar: "/members/ruizi-wang.jpg",
+            avatar: `${base}/members/ruizi-wang.jpg`,
             link: "https://ether9t.github.io/",
         },
         {
             name: "Shirley Anugrah Hayati",
-            avatar: "/members/shirley-anugrah-hayati.jpg",
+            avatar: `${base}/members/shirley-anugrah-hayati.jpg`,
             link: "https://www.shirley.id/",
         },
         {
             name: "Andy J. Phu",
-            avatar: "/members/andy-phu.png",
+            avatar: `${base}/members/andy-phu.png`,
             link: "https://andyphu.com/",
         },
         {
             name: "Dongyeop Kang",
-            avatar: "/members/dongyeop-kang.jpg",
+            avatar: `${base}/members/dongyeop-kang.jpg`,
             link: "https://dykang.github.io/",
         },
     ];
@@ -89,7 +90,7 @@
                 to support the personalized AI agents.
             </p>
             <img
-                src="/user aware figures.png"
+                src={`${base}/user aware figures.png`}
                 alt="user aware figures"
                 style="width: 1080px; height: auto"
             />
@@ -102,7 +103,7 @@
             behavior.
         </p>
         <img
-            src="/roposed major modules.png"
+            src={`${base}/roposed major modules.png`}
             alt="roposed major modules"
             style="width: 1080px; height: auto"
         />
@@ -158,14 +159,14 @@
         </p>
 
         <img
-            src="/casestudy_process.png"
+            src={`${base}/casestudy_process.png`}
             alt="casestudy_process"
             style="width: 1080px; height: auto"
         />
 
         <h4>Annotation Examles</h4>
         <img
-            src="/leetcode_example.png"
+            src={`${base}/leetcode_example.png`}
             alt="leetcode_example"
             style="width: 1080px; height: auto"
         />
@@ -220,7 +221,7 @@
                 class="sponsor-link"
             >
                 <img
-                    src="/google.png"
+                    src={`${base}/google.png`}
                     alt="Google Research"
                     style="width: 140px; height: auto; display: block;"
                 />
